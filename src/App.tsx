@@ -5,6 +5,8 @@ import {
   ColumnTitle,
   CardContainer
 } from "./styles"
+import { Column } from "./Column";
+
 // import logo from './logo.svg';
 // import { ReactComponent as Logo } from './logo.svg';
 // import './App.css';
@@ -13,10 +15,7 @@ export const App = () => {
   return (
     <AppContainer>
       <ColumnContainer>
-        <ColumnTitle>Todo:</ColumnTitle>
-        <CardContainer>FirstItem</CardContainer>
-        <CardContainer>SecondItem</CardContainer>
-        <CardContainer>ThirdItem</CardContainer>
+        <Column text="Todo: "/>
       </ColumnContainer>
     </AppContainer>
   )
