@@ -6,6 +6,7 @@ import {
   CardContainer
 } from "./styles"
 import { Column } from "./Column";
+import { AddNewItem } from './AddNewItem';
 
 // import logo from './logo.svg';
 // import { ReactComponent as Logo } from './logo.svg';
@@ -14,9 +15,11 @@ import { Column } from "./Column";
 export const App = () => {
   return (
     <AppContainer>
-      <ColumnContainer>
         <Column text="Todo: "/>
-      </ColumnContainer>
+        <AddNewItem 
+        toggleButtonText='+ Add another list'
+        onAdd={console.log}
+        />
     </AppContainer>
   )
 }
