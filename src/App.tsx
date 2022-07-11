@@ -1,9 +1,6 @@
 import React from 'react';
 import {
-  AppContainer,
-  ColumnContainer,
-  ColumnTitle,
-  CardContainer
+  AppContainer
 } from "./styles"
 import { Column } from "./Column";
 import { AddNewItem } from './AddNewItem';
